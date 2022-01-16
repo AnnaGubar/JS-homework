@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      input {
+        background: rgba(156, 145, 163, 0.123);
+        color: rgb(215, 179, 221);
+      }
+
+      #validation-input {
+        border: 2px solid #bdbdbd;
+      }
+
+      #validation-input.valid {
+        border-color: #4caf50;
+      }
+
+      #validation-input.invalid {
+        border-color: #f44336;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p><a href="../homework-1.html">Go back</a></p>
+
+      <input
+        type="text"
+        id="validation-input"
+        data-length="6"
+        placeholder="Please enter 6 symbols"
+      />
+    </div>
+
+    <script src="../js/task-06.js" type="module"></script>
+  </body>
+</html>
