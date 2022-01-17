@@ -7,3 +7,11 @@ inputEl.addEventListener('input', () => {
     `inputEl.value: ${inputEl.value}, textValueEl.style.fontSize: ${textValueEl.style.fontSize}`,
   );
 });
+
+// -----------------------------------------
+
+// inputEl.addEventListener('input', onSizeControler);
+
+// function onSizeControler() {
+//   textValueEl.setAttribute('style', `font-size: ${inputEl.value}px`);
+// }

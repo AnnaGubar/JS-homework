@@ -15,5 +15,3 @@ inputValueEl.addEventListener('input', () => {
 //     event.target.value === '' ? 'Anonymous' : event.target.value.trim();
 //   greetingName.textContent = event.currentTarget.value;
 // });
-
-// ? какая разница ?
