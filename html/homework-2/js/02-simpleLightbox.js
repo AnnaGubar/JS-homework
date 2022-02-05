@@ -16,7 +16,7 @@ function createGalleryMarkup(items) {
     .join('');
 }
 
-const lightbox = new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.gallery a', {
   navText: ['←', '→'],
   overlayOpacity: 0.3,
 
