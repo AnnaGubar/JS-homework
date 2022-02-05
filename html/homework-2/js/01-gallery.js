@@ -35,7 +35,9 @@ function modalWindowHandler(e) {
   }
 
   const modalWindow = basicLightbox.create(
-    `<img src="${e.target.dataset.source}">`,
+    `<img src="${e.target.dataset.source}" alt="${e.target.getAttribute(
+      'alt',
+    )}">`,
   );
 
   modalWindow.show();
